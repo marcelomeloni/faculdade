@@ -1,0 +1,54 @@
+
+
+body{
+    background-image: url(img/CSS-Logo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+    background-image: url(img/bgAzul.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-style: italic;
+
+}
+
+h2{
+    text-align: center;
+    background-image: url(img/bgYellowRed.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-transform: capitalize;
+}
+
+h3{
+    text-align: center;
+    background-image: url(img/bgRosa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Utilizando seletor ID */
+#titulo{
+    text-align: center;
+    background-image: url(img/bgVerde.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bolder;
+}
+
+#lista{
+    color: blueviolet; font-weight: bolder;
+}
+
+ul{
+    list-style-type:disc;
+}
+
+
+/* Utilizando seletor CLASS */
+.item{
+    color: blue;
+    background-color: yellow;
+}
